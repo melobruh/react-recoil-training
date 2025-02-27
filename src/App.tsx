@@ -1,7 +1,7 @@
 import { RecoilRoot } from "recoil"
 import PostsContainer from "./PostsContainer"
 
-function App() {
+function App(): JSX.Element {
   return (
     <RecoilRoot>
       <div className="max-w-2xl mx-auto mt-5">
